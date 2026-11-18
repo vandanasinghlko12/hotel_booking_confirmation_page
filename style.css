@@ -1,0 +1,93 @@
+body{
+      
+    padding-bottom: 16px;
+    border-bottom:1px solid hsl(36, 22%, 86%); 
+ }
+
+ .page-layout{
+   display:flex;
+   min-height: 100vh;
+ }
+
+ .logo img{
+    width: 100px;
+ }
+
+   .sidebar { 
+   display:flex;
+   min-height: 100vh;
+   }
+
+   .side-section{
+    width: 220px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border-right:1px solid hsl(36, 22%, 86%);
+    padding: 16px;
+   }
+
+   .side-nav{
+    margin-top: 15px ;
+    gap:5px;
+   }
+
+   .side-nav span{
+     margin-left: 20px;
+   }
+
+   .side-nav .nav-link{
+    display:flex;
+    align-items: center;
+    gap: 12px;
+    color:hsl(33, 17%, 41%);
+   }
+
+   .side-nav .nav-link img{
+          width: 16px;
+    height: 16px;
+   }
+
+   .side-nav .nav-link.active{
+    background-color: white;
+    color:hsl(33, 15%, 15%);
+   }
+              
+   .side-nav .nav-link:hover{
+      background-color: white;
+      color:hsl(33, 15%, 15%);
+   }
+  .sidebar-bottom {
+  margin-top: auto;
+}
+   .weather-card{
+      background-color: hsl(45, 100%, 74%);
+      padding: 16px;
+      border-radius: 20px;
+      border-bottom:1px solid hsl(36, 22%, 86%); 
+   }
+   
+   .weather-card p{
+      color:hsl(33, 17%, 41%);
+      font-size:12px;
+      }
+
+   .weather-card h3{
+      font-size:15 px;
+   }
+
+   .weather-card span{
+      color:hsl(33, 17%, 41%);
+      font-size:12px;
+   }
+
+   .sidebar-footer span{
+    font-size:12px;
+    color:hsl(33, 17%, 41%);
+
+   }
+
+   .sidebar-footer p{
+    font-size:10px;
+    color:hsl(33, 17%, 41%);
+   }

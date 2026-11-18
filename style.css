@@ -16,6 +16,7 @@ body{
    .sidebar { 
    display:flex;
    min-height: 100vh;
+   flex-shrink: 0;
    }
 
    .side-section{
@@ -91,3 +92,159 @@ body{
     font-size:10px;
     color:hsl(33, 17%, 41%);
    }
+
+   .booking-status{
+   color: hsl(33, 17%, 41%);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+   }
+
+  .head-text{
+     color: hsl(18, 62%, 47%);
+      font-size:36px;
+   }
+
+   header h2{
+  font-family: Georgia, serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: hsl(33, 15%, 15%);
+   }
+
+  .receipt-card {
+  width:350px;
+  max-width: 100%;
+  padding:22px;
+  background-color: hsl(40, 60%, 98%);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(50, 35, 20, 0.10);
+  border: 1px solid hsl(36, 22%, 93%);
+  margin:40px auto;
+ box-sizing: border-box;
+}
+
+.receipt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px dotted hsl(36, 22%, 86%);
+  padding-bottom: 15px;
+}
+
+.receipt-label {
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: hsl(33, 17%, 41%);
+  margin-bottom: 5px;
+}
+.receipt-header h3 {
+  font-family: Georgia, serif;
+  font-size: 23px;
+  margin: 0;
+}
+
+.receipt-number {
+  font-size: 10px;
+  text-align: right;
+  color: hsl(33, 17%, 41%);
+}
+
+.booking-dates {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 22px 0;
+  border-bottom: 1px dotted hsl(36, 22%, 86%);
+}
+
+.booking-dates p {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: hsl(33, 17%, 41%);
+  margin-bottom: 8px;
+}
+
+.booking-dates h2 {
+  font-family: Georgia, serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: hsl(0, 0%, 12%);
+  margin-bottom: 4px;
+}
+
+.booking-dates span {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: hsl(33, 17%, 41%);
+}
+
+.booking-details {
+  padding: 18px 0;
+}
+
+.booking-details div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.booking-details div span:first-child {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: hsl(0, 0%, 25%);
+}
+
+.booking-details div span:last-child {
+  font-family: monospace;
+  font-size: 12px;
+  color: hsl(33, 17%, 41%);
+  white-space: nowrap;
+}
+
+.receipt-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid hsl(36, 22%, 86%);
+  padding-top: 18px;
+  margin-top: 5px;
+}
+
+.receipt-total span {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: hsl(33, 17%, 41%);
+}
+
+.receipt-total h2 {
+  font-family: Georgia, serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: hsl(0, 0%, 12%);
+  margin: 0;
+}
+
+.receipt-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px dotted hsl(36, 22%, 86%);
+}
+
+.receipt-footer span {
+  font-family: monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: hsl(33, 17%, 41%);
+}

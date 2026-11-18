@@ -248,3 +248,22 @@ body{
   letter-spacing: 1.5px;
   color: hsl(33, 17%, 41%);
 }
+
+.host-card{
+  width:350px;
+  max-width: 100%;
+  padding:22px;
+  background-color:  hsl(22, 72%, 56%);
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(50, 35, 20, 0.10);
+  border: 1px solid hsl(36, 22%, 93%);
+  margin:40px auto;
+ box-sizing: border-box;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  margin-top: 40px;
+}

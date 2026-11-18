@@ -99,7 +99,7 @@
         </header>
 
         <!-- Booking cards start -->
-
+      <div class="card-container">
         <!-- Receipt card -->
         <div class="receipt-card">
           <div class="receipt-header">
@@ -135,15 +135,31 @@
           </div>
           <div class="receipt-footer">
             <span>Paid · Wise · GBP</span>
-            <div class="barcode"><img src="./assets/images/icon-barcode.svg" alt="Barcode"></div>
+            <div class="barcode">
+              <img src="./assets/images/icon-barcode.svg" alt="Barcode" />
+            </div>
             <!-- Barcode image -->
           </div>
         </div>
-
-        <!-- Note from host card -->
-        Welcome A note from your host, Margaux. We're so glad you're coming. The
-        shutters will be open, the lemonade cold, and the cat - Poivre -
-        pretending not to notice you. Room La Garrigue
+        <article class="host-card">
+          <header class="host-header">
+            <!-- Note from host card -->
+            <h3>Welcome</h3>
+            <p>A note from your host,</p>
+            <span>Margaux.</span>
+          </header>
+          <div class="host-message">
+            <p>
+              We're so glad you're coming. The shutters will be open, the
+              lemonade cold, and the cat - Poivre - pretending not to notice
+              you.
+            </p>
+          </div>
+          <footer class="host-footer">
+        <span>  Room </span>
+         <p>La Garrigue</p></footer>
+        </article>
+      </div>
 
         <!-- Booking cards end -->
 

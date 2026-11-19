@@ -163,7 +163,7 @@
         </div>
 
         <!-- Booking cards end -->
-        <section class="guest-info">
+        <section class="guest-info p-5">
           <div class="container-fluid">
             <!-- Guest info row starts -->
             <div class="row">
@@ -174,8 +174,7 @@
                     <img
                       src="./assets/images/icon-key.svg"
                       alt="checkIn Confirmation"
-                      width="24"
-                      height="24"
+                      
                     />
                     <h3 class="mb-0">Arrival</h3>
                     <span class="ms-auto">01</span>
@@ -193,27 +192,28 @@
               </article>
               <!-- Wifi -->
               <article class="col-md-4">
-                <div class="h-100 p-4">
+                <div class="wifi-card h-100 p-4">
                 <header class="d-flex align-items-center gap-3 mb-4">
                   <img src="./assets/images/icon-wifi.svg" alt="Wifi">
                   <h3 class="mb-0">Wifi</h3>
                   <span class="ms-auto">02</span>
                 </header>
-                <div>
+                <div class="wifi-content">
                <h2 class="mt-3 mb-0">Le Soleil · Guest </h2>
                <span>Password below</span>
-               <button> Network  Le Soleil · Guest</button>
-               <button> Password soleil-2026 Copy</button>
-                </div>
+               <div class="d-grid gap-2">
+               <button type="button" class="btn wifi-button w-100 mt-3 "><p> Network</p><span>Le Soleil · Guest</span></button>
+               <button type="button" class="btn wifi-button w-100 mt-3 "> <p>Password</p><span> soleil-2026 Copy</span></button>
+               </div> </div>
               </article>
               <!-- Breakfast -->
                <article class="col-md-4">
-                <div class="h-100 p-4">
+                <div class="breakfast-card h-100 p-4">
                 <header class="d-flex align-items-center gap-3 mb-4">
                   <img src="./assets/images/icon-breakfast.svg" alt="Breakfast">
              <h3 class="mb-0">Breakfast</h3>  
              <span class="ms-auto">03</span></header> 
-             <div>
+             <div class="breakfast-content">
               <h2 class="mt-3 mb-0">Served 8 - 10:30</h2><span> On the terrace</span>
              <p class="mt-3 mb-0"> Fresh figs, Marseille
               honey, pain au levain, and espresso. Gluten-free option? Leave a
@@ -231,7 +231,7 @@
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Vandana Singh</a>.
     </footer>
   </body>
 </html>
